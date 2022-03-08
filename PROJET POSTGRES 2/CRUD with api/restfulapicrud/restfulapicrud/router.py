@@ -1,0 +1,8 @@
+from donneursapi.viewsets import DonneursViewset
+from rest_framework import routers
+
+router =routers.DefaultRouter()
+router.register('donneurs', DonneursViewset)
+
+
+
